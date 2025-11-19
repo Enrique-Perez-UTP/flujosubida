@@ -30,7 +30,7 @@ jobs:
       # Step 3: Variables de entorno secretas
       - name: variables de entorno secretas
         run: |
-          echo "user: ${{ secrets.USER }}"
+          echo "user: ${{ secrets.user }}"
           echo "password: ${{ secrets.PASSWORD }}"
       
       # Step 4: Variables abiertas
